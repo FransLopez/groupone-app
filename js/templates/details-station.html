@@ -17,7 +17,7 @@
             </li>
             <li class="list-group-item">Nearby Stations:
                 <ul class="nearby-stations-style">
-                    <li class="btn btn-default" ng-repeat="station in detail.nearByStation">{{station}}</li>
+                    <li ng-repeat="station in detail.nearByStation"><a class="btn btn-default" href="#!/details/{{station}}">{{station}}</a></li>
                 </ul>
             </li>
         </ul>

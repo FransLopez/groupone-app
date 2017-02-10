@@ -17,8 +17,8 @@
                 <li class="panel panel-default" id="single-station" ng-repeat="station in vm.allStationsInfo | filter : {name : query} | limitTo: vm.paginationLimit()">
                     <div class="panel-heading">
                         <h5>
-                            <a href="#!/details/{{station.id}}">{{station.name}}</a>
-                            <a href="" class="pull-right glyphicon glyphicon-map-marker" ng-click="vm.centerStation(station.id)"></a>
+                            <a href="#!/details/{{station.uid}}">{{station.name}}</a>
+                            <a href="" class="pull-right glyphicon glyphicon-map-marker" ng-click="vm.centerStation(station.uid)"></a>
                         </h5>
                     </div>
                     <div id="bikes-availability" class="panel-body">
