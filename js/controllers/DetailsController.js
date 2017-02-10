@@ -11,6 +11,14 @@ function DetailsStationController ($rootScope, $routeParams, BikeFactory) {
     vm.details = response
   })
 
+  function goToStation() {
+  BikeFactory.getStationDetails(idStation)
+  .then(function(Response) {
+    vm.goStation = response
+
+  })
+}
+
   BikeFactory.getStationDetails(idStation)
       .then(function (response) {
         var centerMap = response[0].latitude + ',' + response[0].longitude
