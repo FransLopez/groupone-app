@@ -1,11 +1,12 @@
-[![AngularJS](https://github.com/FransLopez/logo-images/blob/master/logos/angularjs.png)](https://angularjs.org/) [![HTML5 and CSS3](https://github.com/FransLopez/logo-images/blob/master/logos/html5andcss3.png)](http://www.w3.org/) [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![AngularJS](https://github.com/FransLopez/logo-images/blob/master/logos/angularjs.png)](https://angularjs.org/) [![HTML5 and CSS3](https://github.com/FransLopez/logo-images/blob/master/logos/html5andcss3.png)](http://www.w3.org/) [![Bootstrap](https://github.com/FransLopez/logo-images/blob/master/logos/bootstrap.png)](http://getbootstrap.com/) [![Bower](https://github.com/FransLopez/logo-images/blob/master/logos/bower.png)](https://bower.io/) [![SASS](https://github.com/FransLopez/logo-images/blob/master/logos/sass.png)](http://sass-lang.com/) 
+
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+[![Skylab](https://github.com/FransLopez/logo-images/blob/master/logos/skylab-56.png)](http://www.skylabcoders.com/)  
 
 ---
 
-[![Skylab Coders Academy](https://github.com/FransLopez/logo-images/blob/master/logos/skylab-gray.png)](http://www.skylabcoders.com/es)
-
-
-#### Urbyke APP
+## Urbyke APP
 
 This is a prototype application for a test project at *Skylab Coders Academy* to apply the concept learn about *AngularJs*. The Web aplication is call **Urbyke App** and it's use to locate the public bike service all around the city of Barcelona, Spain. The repo contains all the templates and controllers that will help you through the review of the code; also shows the use of routes and factories that were use to make AJAX requests to collect all the data information.
 
