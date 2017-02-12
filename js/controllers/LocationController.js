@@ -1,7 +1,9 @@
 /* eslint no-undef: "off" */
 (function () {
-  angular.module('urbykeApp')
-.controller('LocationController', LocationController)
+  'use strict'
+  angular
+    .module('urbykeApp')
+    .controller('LocationController', LocationController)
 
   function LocationController ($scope, BikeFactory, NgMap) {
     var vm = this

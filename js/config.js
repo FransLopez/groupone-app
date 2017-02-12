@@ -1,6 +1,9 @@
 /* eslint no-undef: "off" */
-angular.module('urbykeApp')
-.config(function ($routeProvider) {
+angular
+  .module('urbykeApp')
+  .config(configRoute)
+
+function configRoute ($routeProvider) {
   $routeProvider
     .when('/', {
       templateUrl: 'js/templates/stations-list.html',
@@ -13,4 +16,4 @@ angular.module('urbykeApp')
       controllerAs: 'vm'
     })
     .otherwise('/')
-})
+}

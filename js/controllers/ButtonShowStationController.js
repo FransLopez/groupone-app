@@ -1,8 +1,9 @@
 /* eslint no-undef: "off" */
 (function () {
-  angular.module('urbykeApp')
-
-.controller('ButtonShowStationController', ButtonShowStationController)
+  'use strict'
+  angular
+    .module('urbykeApp')
+    .controller('ButtonShowStationController', ButtonShowStationController)
 
   function ButtonShowStationController ($rootScope) {
     $rootScope.showDetails = ''
