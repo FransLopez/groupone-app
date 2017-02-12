@@ -13,8 +13,12 @@
 
     vm.centerMap = 'current-position'
 
-    $scope.$on('centerSelectStation', function (event, centerMap) {
-      vm.centerMap = centerMap
+    $scope.$on('centerSelectStation', function (event, idStation) {
+      BikeFactory.getStationDetails(idStation)
+        .then(function (response) {
+          var centerMap = response[0].latitude + ',' + response[0].longitude
+          vm.centerMap = centerMap
+        })
     })
   }
 })()
