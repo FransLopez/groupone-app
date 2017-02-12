@@ -4,13 +4,13 @@
 <nav class="container-fluid hidden-info {{showInfo}}">
     <section id="filter-station">
         <div class="form-group">
-            <label for="">Filter by Stations</label>
+            <label for="">Filter by Station</label>
             <input type="text" class="form-control" autofocus placeholder="Station name..." ng-model="query">
         </div>
     </section>
     <div>
         <div>
-            <p>{{(vm.allStationsInfo | filter : {name : query}).length}} stations found</p>
+            <p>Found {{(vm.allStationsInfo | filter:{name : query}).length}} out of {{vm.allStationsInfo.length}} available stations.</p>
         </div>
         <div>
             <ul class="list-unstyled list-group" id="listed-stations">
@@ -27,7 +27,7 @@
                     </div>
                 </li>
             </ul>
-            <button class="btn btn-large btn-block btn-info" ng-show="vm.hasMoreItemsToShow()" ng-click="vm.showMoreItems()">Show More Stations <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></button>
+            <button class="btn btn-large btn-block btn-info" ng-show="vm.hasMoreItemsToShow((vm.allStationsInfo | filter:{name : query}).length)" ng-click="vm.showMoreItems()">Show More Stations <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></button>
         </div>
     </div>
 </nav>

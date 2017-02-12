@@ -1,15 +1,25 @@
 /* eslint no-undef: "off" */
 (function () {
-  angular.module('urbykeApp')
-.factory('BikeFactory', BikeFactory)
+  'use strict'
+  angular
+    .module('urbykeApp')
+    .factory('BikeFactory', BikeFactory)
 
   function BikeFactory ($http) {
+    var service = {
+      getBikeStations: getBikeStations,
+      getStationDetails: getStationDetails
+    }
+
+    return service
+
+// Methods from the factory
     function getBikeStations () {
       var url = 'https://api.citybik.es/v2/networks/bicing'
 
       return $http.get(url)
             .then(getResults)
-            .then(getStations)
+              .then(getStations)
     }
 
     function getStationDetails (idStation) {
@@ -20,16 +30,13 @@
               })
             })
     }
-
-    return {
-      getBikeStations: getBikeStations,
-      getStationDetails: getStationDetails
-    }
   }
+
 // Helper functions to filter result
   function getResults (response) {
     return response.data.network.stations
   }
+
   function getStations (stations) {
     return stations.map(function (elem) {
       var stationsInfo = {
