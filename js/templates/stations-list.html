@@ -4,13 +4,13 @@
 <nav class="container-fluid hidden-info {{showInfo}}">
     <section id="filter-station">
         <div class="form-group">
-            <label for="">Search a Stations</label>
-            <input type="text" class="form-control" autofocus placeholder="Station..." ng-model="query">
+            <label for="">Filter for Stations</label>
+            <input type="text" class="form-control" autofocus placeholder="Station name..." ng-model="query">
         </div>
     </section>
     <div>
         <div>
-            <p>{{vm.allStationsInfo.length}} stations found</p>
+            <p>{{(vm.allStationsInfo | filter : {name : query}).length}} stations found</p>
         </div>
         <div>
             <ul class="list-unstyled list-group" id="listed-stations">
