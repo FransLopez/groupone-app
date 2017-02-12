@@ -1,13 +1,15 @@
-[![AngularJS](https://github.com/FransLopez/logo-images/blob/master/logos/angularjs.png)](https://angularjs.org/) [![HTML5 and CSS3](https://github.com/FransLopez/logo-images/blob/master/logos/html5andcss3.png)](http://www.w3.org/) [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![AngularJS](https://github.com/FransLopez/logo-images/blob/master/logos/angularjs.png)](https://angularjs.org/) [![HTML5 and CSS3](https://github.com/FransLopez/logo-images/blob/master/logos/html5andcss3.png)](http://www.w3.org/) [![Bootstrap](https://github.com/FransLopez/logo-images/blob/master/logos/bootstrap.png)](http://getbootstrap.com/) [![Bower](https://github.com/FransLopez/logo-images/blob/master/logos/bower.png)](https://bower.io/) [![SASS](https://github.com/FransLopez/logo-images/blob/master/logos/sass.png)](http://sass-lang.com/) 
+
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+[![Skylab](https://github.com/FransLopez/logo-images/blob/master/logos/skylab-56.png)](http://www.skylabcoders.com/)  
 
 ---
 
-[![Skylab Coders Academy](https://github.com/FransLopez/logo-images/blob/master/logos/skylab-gray.png)](http://www.skylabcoders.com/es)
-
-
-#### Urbyke APP
+## Urbyke APP
 
 This is a prototype application for a test project at *Skylab Coders Academy* to apply the concept learn about *AngularJs*. The Web aplication is call **Urbyke App** and it's use to locate the public bike service all around the city of Barcelona, Spain. The repo contains all the templates and controllers that will help you through the review of the code; also shows the use of routes and factories that were use to make AJAX requests to collect all the data information.
+
 
 ---
 
@@ -29,13 +31,14 @@ The following dependencies where use to make the Web application
 
 
 ### Development and or Running the Build
-
+##### Bower
 To install dependencies you can just do:
 
 `bower install`
 
-To run the map from google you need to request an API key in the next link: [Google Maps API](https://developers.google.com/maps/documentation/javascript/) then you need to add it into the your index.html file in a script tag.
-(Reference line 30 from index.html, section GOOGLE.API)
+##### Google Maps API
+To run the map from google you need to request an API key in the next link: [Google Maps API](https://developers.google.com/maps/documentation/javascript/), then you need to add it into the your index.html file in a script tag.
+(Reference line 29 from index.html you add **?key=<%GOOGLE-API%>**, where you need to replace **_<%GOOGLE-API%>_** with your Api-key )
 
 
 ### Running the example
@@ -57,6 +60,14 @@ to run the local server:
 
 The various directives are documented at API's of bike Services all around the city of Barcelona.
 
+---
+#### Authors:
+
+- [Francisco Lopez](https://github.com/FransLopez)
+- [Josep Otal](https://github.com/josepotal)
+- [Ernesto Parra](https://github.com/ERPG)
+
+---
 ### API Reference
 
 - [ngMap - GoogleMap AngularJS Directive](https://github.com/allenhwkim/angularjs-google-maps) 

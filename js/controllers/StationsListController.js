@@ -23,15 +23,11 @@
     vm.showMoreItems = function () {
       pagesShown = pagesShown + 1
     }
-// Center Station
+// Center Select Station
     vm.centerStation = function (idStation) {
-      BikeFactory.getStationDetails(idStation)
-      .then(function (response) {
-        var centerMap = response[0].latitude + ',' + response[0].longitude
-        $rootScope.$broadcast('centerSelectStation', centerMap)
-        $rootScope.showDetails = ''
-        $rootScope.showInfo = ''
-      })
+      $rootScope.$broadcast('centerSelectStation', idStation)
+      $rootScope.showDetails = ''
+      $rootScope.showInfo = ''
     }
   }
 })()
