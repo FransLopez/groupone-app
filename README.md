@@ -1,8 +1,8 @@
-[![AngularJS](https://github.com/FransLopez/logo-images/blob/master/logos/angularjs.png)](https://angularjs.org/) [![HTML5 and CSS3](https://github.com/FransLopez/logo-images/blob/master/logos/html5andcss3.png)](http://www.w3.org/) [![Bootstrap](https://github.com/FransLopez/logo-images/blob/master/logos/bootstrap.png)](http://getbootstrap.com/) [![Bower](https://github.com/FransLopez/logo-images/blob/master/logos/bower.png)](https://bower.io/) [![SASS](https://github.com/FransLopez/logo-images/blob/master/logos/sass.png)](http://sass-lang.com/) 
+[![AngularJS](https://github.com/franlopezm/logo-images/blob/master/logos/angularjs.png)](https://angularjs.org/) [![HTML5 and CSS3](https://github.com/franlopezm/logo-images/blob/master/logos/html5andcss3.png)](http://www.w3.org/) [![Bootstrap](https://github.com/franlopezm/logo-images/blob/master/logos/bootstrap.png)](http://getbootstrap.com/) [![Bower](https://github.com/franlopezm/logo-images/blob/master/logos/bower.png)](https://bower.io/) [![SASS](https://github.com/franlopezm/logo-images/blob/master/logos/sass.png)](http://sass-lang.com/) 
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-[![Skylab](https://github.com/FransLopez/logo-images/blob/master/logos/skylab-56.png)](http://www.skylabcoders.com/)  
+[![Skylab](https://github.com/franlopezm/logo-images/blob/master/logos/skylab-56.png)](http://www.skylabcoders.com/)  
 
 ---
 
@@ -63,7 +63,7 @@ The various directives are documented at API's of bike Services all around the c
 ---
 #### Authors:
 
-- [Francisco Lopez](https://github.com/FransLopez)
+- [Francisco Lopez](https://github.com/franlopezm)
 - [Josep Otal](https://github.com/josepotal)
 - [Ernesto Parra](https://github.com/ERPG)
 
